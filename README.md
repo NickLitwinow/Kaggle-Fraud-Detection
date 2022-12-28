@@ -1,3 +1,6 @@
+![nb](https://user-images.githubusercontent.com/44932745/209872828-616a1e51-0a59-4984-b465-5c35fa767d21.png)
+
+
 Imagine standing at the check-out counter at the grocery store with a long line behind you and the cashier not-so-quietly announces that your card has been declined. In this moment, you probably aren’t thinking about the data science that determined your fate.
 
 Embarrassed, and certain you have the funds to cover everything needed for an epic nacho party for 50 of your closest friends, you try your card again. Same result. As you step aside and allow the cashier to tend to the next customer, you receive a text message from your bank. “Press 1 if you really tried to spend $500 on cheddar cheese.”
