@@ -16,7 +16,7 @@ If successful, you’ll improve the efficacy of fraudulent transaction alerts fo
 
 
 # Files Description
-- eda.ipynb – EDA of all columns of Transaction dataset
+- eda.ipynb – EDA for all columns of Transaction dataset
 - model.ipynb – Created Model (Not done yet)
 - train_{transaction, identity}.csv – The training set
 - test_{transaction, identity}.csv – The test set
