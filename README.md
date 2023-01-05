@@ -1,4 +1,4 @@
-![nb](https://user-images.githubusercontent.com/44932745/209872828-616a1e51-0a59-4984-b465-5c35fa767d21.png)
+![nb](https://user-images.githubusercontent.com/44932745/210684564-8a09ea8d-4733-433e-ac7b-a3cbed60a6b3.png)
 
 
 # Task Description
