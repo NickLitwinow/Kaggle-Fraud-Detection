@@ -3,6 +3,8 @@
 
 # IEEE Fraud Detection EDA
 
+![IEEE Fraud Detection 🔍 EDA for All Columns](https://www.kaggle.com/code/nicklitwinow/ieee-fraud-detection-eda-for-all-columns)
+
 This project provides an exploratory data analysis (EDA) for the IEEE Fraud Detection dataset available on Kaggle. The analysis focuses on understanding the structure and characteristics of the transaction and identity data provided for both training and testing.
 
 ## Project Overview
