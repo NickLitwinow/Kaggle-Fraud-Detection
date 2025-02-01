@@ -1,23 +1,28 @@
 ![nb](https://user-images.githubusercontent.com/44932745/210684564-8a09ea8d-4733-433e-ac7b-a3cbed60a6b3.png)
 
 
-# Task Description
-Imagine standing at the check-out counter at the grocery store with a long line behind you and the cashier not-so-quietly announces that your card has been declined. In this moment, you probably aren’t thinking about the data science that determined your fate.
+# IEEE Fraud Detection EDA
 
-Embarrassed, and certain you have the funds to cover everything needed for an epic nacho party for 50 of your closest friends, you try your card again. Same result. As you step aside and allow the cashier to tend to the next customer, you receive a text message from your bank. “Press 1 if you really tried to spend $500 on cheddar cheese.”
+This project provides an exploratory data analysis (EDA) for the IEEE Fraud Detection dataset available on Kaggle. The analysis focuses on understanding the structure and characteristics of the transaction and identity data provided for both training and testing.
 
-While perhaps cumbersome (and often embarrassing) in the moment, this fraud prevention system is actually saving consumers millions of dollars per year. Researchers from the IEEE Computational Intelligence Society (IEEE-CIS) want to improve this figure, while also improving the customer experience. With higher accuracy fraud detection, you can get on with your chips without the hassle.
+## Project Overview
 
-IEEE-CIS works across a variety of AI and machine learning areas, including deep neural networks, fuzzy systems, evolutionary computation, and swarm intelligence. Today they’re partnering with the world’s leading payment service company, Vesta Corporation, seeking the best solutions for fraud prevention industry, and now you are invited to join the challenge.
+The objective of this project is to perform an in-depth EDA on the IEEE Fraud Detection data. The analysis includes:
+- **Data Reading:** Importing transaction and identity data from CSV files.
+- **Visualization:** Creating time histograms, regular histograms, and correlation plots to visualize the distribution of values over time and understand the relationships between features.
+- **Descriptive Statistics:** Generating detailed descriptive statistics for both the entire datasets and key segments (e.g., fraudulent vs. non-fraudulent transactions, public vs. private test data).
+- **Correlation Analysis:** Identifying the most correlated features with key variables such as `TransactionDT` and `isFraud`.
 
-In this competition, you’ll benchmark machine learning models on a challenging large-scale dataset. The data comes from Vesta's real-world e-commerce transactions and contains a wide range of features from device type to product features. You also have the opportunity to create new features to improve your results.
+## Dataset Description
 
-If successful, you’ll improve the efficacy of fraudulent transaction alerts for millions of people around the world, helping hundreds of thousands of businesses reduce their fraud loss and increase their revenue. And of course, you will save party people just like you the hassle of false positives.
+The dataset consists of four CSV files:
+- **train_transaction.csv:** Transaction data for training.
+- **test_transaction.csv:** Transaction data for testing.
+- **train_identity.csv:** Identity data for training.
+- **test_identity.csv:** Identity data for testing.
 
-
-# Files Description
-- eda.ipynb – EDA for all columns of Transaction dataset
-- model.ipynb – Created Model (Not done yet)
-- train_{transaction, identity}.csv – The training set
-- test_{transaction, identity}.csv – The test set
-- sample_submission.csv – A sample submission file in the correct format
+Key columns include:
+- **TransactionDT:** The transaction timestamp.
+- **TransactionAmt:** The amount involved in the transaction.
+- **isFraud:** The target variable indicating whether a transaction is fraudulent.
+- Other features (both numeric and categorical) that describe the transactions and the identities of the cardholders.
